@@ -1,1 +1,1 @@
-https://jaydeejs.github.io/rsschool-cv/cv/cv.md
+https://jaydeejs.github.io/rsschool-cv/cv.md
