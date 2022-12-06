@@ -1,1 +1,1 @@
-# rsschool-cv
+https://JayDeeJS.github.io/rsschool-cv/cv
