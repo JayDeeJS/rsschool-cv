@@ -92,3 +92,102 @@ ul > li > a{
 a > span{
     color: black;
 }
+
+.cv__column-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.column-right__biography{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.biography__title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid mediumseagreen;
+}
+.biography__title > img,
+.row__title > img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.biography__content{
+    margin: 8px 0;
+    line-height: 26px;
+}
+.biography__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.biography__list > h4{
+    text-decoration: underline;
+}
+.biography__list-elements{
+    width: 90%;
+}
+.list-spacing,
+.list-style,
+.biography__list-elements > li{
+    margin: 8px 0;
+    line-height: 22px;
+}
+.list-style{
+    font-style: italic;
+}
+
+.cv__row{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.row__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row__code{
+    width: 100%;
+    background-color: lightgrey;
+}
+.code__task{
+    margin: 10px 30px;
+    line-height: 23px;
+}
+.code__solution{
+    width: 70%;
+    outline: 1px solid blue;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+.code__solution > pre > code{
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+    background-color: darkslategrey;
+}
+footer > a{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: ghostwhite;
+}
+footer > a > img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
