@@ -28,8 +28,8 @@ body{
     margin-bottom: 30px;
 }
 .column-left__header > h1{
-    margin: 20px 0;
     text-align: center;
+    margin: 10px;
 }
 .column-left__contacts,
 .column-left__portfolio,
@@ -41,15 +41,15 @@ body{
     background-color: lightskyblue;
     border-radius: 20px;
 }
-.column-left__contacts > h2,
-.column-left__portfolio > h2,
-.column-left__languages > h2{
+.column-left__contacts > h3,
+.column-left__portfolio > h3,
+.column-left__languages > h3{
     background-color: lightsalmon;
-    padding: 20px;
+    padding: 13px;
     border-radius: 20px;
 }
-.column-left__contacts > h2{
-    margin-top: -30px;
+.column-left__contacts > h3{
+    margin-top: -20px;
 }
 .column-left__contacts > ul,
 .column-left__portfolio > ul,
@@ -70,9 +70,6 @@ body{
 }
 .column-left__languages > ul > li{
     margin-bottom: 15px;
-}
-.column-left__languages{
-    padding-bottom: 58px;
 }
 ul > li > .contacts__image,
 ul > li > .portfolio__image{
