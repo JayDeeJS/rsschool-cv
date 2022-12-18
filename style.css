@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+body{
+    font-family: "Libre Franklin";
+}
+
+.cv{
+    width: 1024px;
+    outline: 5px solid mediumseagreen;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+.cv__columns{
+    width: 100%;
+    display: flex;
+    border-bottom: 4px solid mediumseagreen;
+}
+.cv__column-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.column-left__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.column-left__header > h1{
+    text-align: center;
+    margin: 10px;
+}
+.column-left__contacts,
+.column-left__portfolio,
+.column-left__languages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+.column-left__contacts > h3,
+.column-left__portfolio > h3,
+.column-left__languages > h3{
+    background-color: lightsalmon;
+    padding: 13px;
+    border-radius: 20px;
+}
+.column-left__contacts > h3{
+    margin-top: -20px;
+}
+.column-left__contacts > ul,
+.column-left__portfolio > ul,
+.column-left__portfolio > span,
+.column-left__languages > ul{
+    width: 85%;
+    list-style: none;
+}
+.column-left__portfolio > span{
+    text-align: justify;
+}
+.column-left__contacts > ul > li,
+.column-left__portfolio > ul > li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.column-left__languages > ul > li{
+    margin-bottom: 15px;
+}
+ul > li > .contacts__image,
+ul > li > .portfolio__image{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+ul > li > a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a > span{
+    color: black;
+}
+
+.cv__column-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.column-right__biography{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.biography__title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid mediumseagreen;
+}
+.biography__title > img,
+.row__title > img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.biography__content{
+    margin: 8px 0;
+    line-height: 26px;
+}
+.biography__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.biography__list > h4{
+    text-decoration: underline;
+}
+.biography__list-elements{
+    width: 90%;
+}
+.list-spacing,
+.list-style,
+.biography__list-elements > li{
+    margin: 8px 0;
+    line-height: 22px;
+}
+.list-style{
+    font-style: italic;
+}
+
+.cv__row{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.row__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row__code{
+    width: 100%;
+    background-color: lightgrey;
+}
+.code__task{
+    margin: 10px 30px;
+    line-height: 23px;
+}
+.code__solution{
+    width: 70%;
+    outline: 1px solid blue;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+.code__solution > pre > code{
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer > a{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: ghostwhite;
+}
+footer > a > img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 165px;
+    height: 35px;
+}
+.logo > img{
+    width: 60%;
+    height: 100%; 
+}
