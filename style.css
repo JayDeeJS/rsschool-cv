@@ -27,13 +27,7 @@ body{
     align-items: center;
     margin-bottom: 30px;
 }
-.column-left__header > img{
-    width: 50%;
-    border-radius: 50%;
-    border: 25px solid lightskyblue;
-    margin-top: 20px;
-}
-.column-left__header > nav > h1{
+.column-left__header > h1{
     margin: 20px 0;
     text-align: center;
 }
