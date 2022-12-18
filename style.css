@@ -33,8 +33,9 @@ body{
     border: 25px solid lightskyblue;
     margin-top: 20px;
 }
-.column-left__header > h2{
-    margin: 20px 0 0 0;
+.column-left__header > nav > h1{
+    margin: 20px 0;
+    text-align: center;
 }
 .column-left__contacts,
 .column-left__portfolio,
@@ -46,14 +47,14 @@ body{
     background-color: lightskyblue;
     border-radius: 20px;
 }
-.column-left__contacts > h3,
-.column-left__portfolio > h3,
-.column-left__languages > h3{
+.column-left__contacts > h2,
+.column-left__portfolio > h2,
+.column-left__languages > h2{
     background-color: lightsalmon;
     padding: 20px;
     border-radius: 20px;
 }
-.column-left__contacts > h3{
+.column-left__contacts > h2{
     margin-top: -30px;
 }
 .column-left__contacts > ul,
