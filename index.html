@@ -170,6 +170,43 @@
             </main>
 
         </div>
+
+        <div class="cv__row">
+            <main class="row__title">
+                <img src="./code.png" alt="code">
+                <h3>CODE EXAMPLE</h3>
+            </main>
+            <main class="row__code">
+                <section>
+                    <p class="code__task"><strong>The Coupon Code KATA from CODEWARS. </strong>Write a function called checkCoupon which verifies
+                        that a coupon code is valid and not expired. A coupon is no more valid on the day AFTER the expiration date.
+                        All dates will be passed as strings in this format: "MONTH DATE, YEAR".
+                    </p>
+                </section>
+                <section class="code__solution">
+                    <pre>
+                        <code>
+            function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+    
+              let currentDateParsed = Date.parse(currentDate);
+              let expirationDateParsed = Date.parse(expirationDate);
+    
+              console.log(currentDateParsed, expirationDateParsed);
+    
+              if(currentDateParsed > expirationDateParsed || enteredCode !== correctCode){
+                return false;
+              } else{
+                return true;
+              }
+            }
+    
+            console.log(checkCoupon("4242", "4242", "July 9, 2015", "July 15, 2015"));
+                        </code>
+                    </pre>
+                </section>
+            </main>
+        </div>
+
     </div>
 </body>
 </html>
