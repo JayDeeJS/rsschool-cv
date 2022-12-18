@@ -179,6 +179,9 @@ a > span{
 footer{
     width: 100%;
     background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 footer > a{
     padding: 15px;
@@ -191,4 +194,14 @@ footer > a > img{
     width: 35px;
     height: 35px;
     margin-right: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 165px;
+    height: 35px;
+}
+.logo > img{
+    width: 60%;
+    height: 100%; 
 }
